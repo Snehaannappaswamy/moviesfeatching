@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+  height: 500px;
+}
+
+.styles {
+  background-color: gray;
+}
+
+.pagination {
+  padding: 10px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span {
+  padding: 15px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pagination__selected {
+  background-color: whitesmoke;
+}
